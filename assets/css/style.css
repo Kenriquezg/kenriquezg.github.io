@@ -320,8 +320,9 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: linear-gradient(to bottom right, #E6E6FA, #D8BFD8); /* degradado lila */
   position: relative;
+}
 }
 
 #intro.section .container {
