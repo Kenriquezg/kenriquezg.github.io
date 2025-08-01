@@ -126,6 +126,7 @@
 body {
   color: #333;
   font-size: 18px;
+  background-color: #dec7f7; /* LILA pastel */
 }
 
 /* body {
@@ -200,7 +201,7 @@ nav i {
 } */
 
 main {
-  background: url(../../assets/img/bg.png) repeat;
+  background-color: #dec7f7; /* fondo lila claro en todo el sitio */
   padding-left: 190px;
 }
 
