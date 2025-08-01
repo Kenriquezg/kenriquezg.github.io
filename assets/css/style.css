@@ -356,14 +356,14 @@ h3 {
   padding: 0 10px;
 }
 
-.overlay {
+/*.overlay {
   background-color: rgba(0, 0, 0, 0.4);
   height: 100%;
   left: 0;
   position: absolute;
   top: 0;
   width: 100%;
-}
+}*/
 
 .waves-effect.waves-blue .waves-ripple {
   /* The alpha value allows the text and background color
@@ -550,7 +550,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #9b5de5 !important; /* Lila oscuro */
 }
 
 /* .teal-text {
@@ -560,7 +560,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #9b5de5 !important; /* Lila oscuro */
 }
 
 /* .teal {
