@@ -313,12 +313,12 @@ h3 {
 /* Original */
 
 /* #intro.section {
-  background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover;
+  background: transparent;
   position: relative;
 } */
 
 #intro.section {
-  background: #4527A0 repeat;
+  background: transparent;
   position: relative;
 }
 
@@ -328,6 +328,8 @@ h3 {
   left: 0;
   position: absolute;
   top: 0;
+
+  z-index: 1;
 }
 
 /* #intro.section .container *:not(span) {
@@ -355,11 +357,9 @@ h3 {
 
 .overlay {
   background-color: rgba(69, 39, 160, 0.7); /* morado oscuro translúcido */
-  height: 100%;
-  left: 0;
   position: absolute;
-  top: 0;
-  width: 100%;
+  inset: 0;
+  z-index: 0;
 }
 
 .waves-effect.waves-blue .waves-ripple {
@@ -685,6 +685,7 @@ small {
     margin: 0 auto;
   }
   #intro.section {
-    background-position-x: 30%;
-  }
+  background: transparent;
+  position: relative;
+}
 }
