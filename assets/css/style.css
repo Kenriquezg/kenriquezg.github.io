@@ -700,3 +700,14 @@ small {
     padding-top: 16px;
   }
 }
+
+
+/* Anchor offset hack for mobile: prevent section titles sticking under fixed navbar */
+@media (max-width: 992px) {
+  /* Apply to all sections except the hero */
+  section.section.scrollspy:not(#intro) {
+    /* create space equal to (navbar height + breathing room) */
+    padding-top: 96px;   /* 64px navbar + 32px aire */
+    margin-top: -96px;   /* pull section back up so layout height stays the same */
+  }
+}
