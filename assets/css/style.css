@@ -689,3 +689,14 @@ small {
   position: relative;
 }
 }
+
+
+/* Fix: avoid section titles sticking under navbar on mobile */
+@media (max-width: 992px) {
+  section.scrollspy {
+    scroll-margin-top: 80px;
+  }
+  section.section.scrollspy:not(#intro) {
+    padding-top: 16px;
+  }
+}
